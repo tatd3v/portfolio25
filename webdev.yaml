@@ -1,0 +1,14 @@
+# Configuration for the webdev server
+# This ensures proper MIME types for files
+handlers:
+  - serve: /
+    headers:
+      - Content-Type: application/pdf
+      - Content-Disposition: 'attachment; filename="Tatiana_Davila_CV.pdf"'
+      - Access-Control-Allow-Origin: '*'
+
+# Development server settings
+dev:
+  host: localhost
+  port: 8080
+  log-requests: true

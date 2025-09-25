@@ -1,0 +1,6 @@
+<IfModule mod_headers.c>
+    <Files "Tatiana_Davila_CV.pdf">
+        Header set Content-Disposition "attachment; filename=\"Tatiana_Davila_CV.pdf\""
+        Header set Content-Type "application/pdf"
+    </Files>
+</IfModule>
